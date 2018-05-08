@@ -1,0 +1,169 @@
+body {
+    background-color: rgba(217, 177, 137, 0.52);
+}
+
+.button {
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    border-radius: 15px;
+    font-size: 16px;
+    background-color: rgba(0, 17, 173, 0.79);
+}
+
+#d4 {
+    margin-top: 18%;
+    margin-left: 4%;
+    position: absolute;
+}
+
+#d6 {
+    margin-left: 35%;
+    margin-top: 18%;
+    position: absolute;
+}
+
+#d8 {
+    margin-left: 66%;
+    margin-top: 18%;
+    position: absolute;
+}
+
+#d10 {
+    margin-left: 17%;
+    margin-top: 44%;
+    position: absolute;
+}
+
+#d12 {
+    margin-left: 55%;
+    margin-top: 44%;
+    position: absolute;
+}
+
+#d20 {
+    margin-top: 70%;
+    margin-left: 8%;
+    position: absolute;
+}
+
+#d100 {
+    margin-left: 58%;
+    margin-top: 70%;
+    position: absolute;
+}
+
+#rollButton {
+    margin-left: 5%;
+    position: absolute;
+    margin-top: 130%;
+}
+
+#clear {
+    position: absolute;
+    margin-top: 130%;
+    margin-left: 60%;
+}
+
+#answer {
+    margin-top: 105%;
+    margin-left: 4%;
+    position: absolute;
+    font-size: 30px;
+}
+
+@media screen and (min-width: 644px) and (max-width: 740px) {
+    #d4 {
+        margin-top: 10%;
+        margin-left: 8%;
+    }
+    #d6 {
+        margin-top: 10%;
+        margin-left: 37%;
+    }
+    #d8 {
+        margin-top: 10%;
+    }
+    #d10 {
+        margin-top: 34%;
+    }
+    #d12 {
+        margin-top: 34%;
+    }
+    #d20 {
+        margin-top: 60%;
+        margin-left: 10%;
+    }
+    #d100 {
+        margin-top: 60%;
+        margin-left: 64%;
+    }
+    #rollButton {
+        margin-top: 110%;
+        margin-left: 10%;
+    }
+    #clear {
+        margin-top: 110%;
+        margin-left: 60%;
+    }
+    #answer {
+        margin-top: 90%;
+        margin-left: 10%;
+        font-size: 60px;
+    }
+}
+@media screen and (min-width: 741px) {
+    .button {
+        border-style: solid;
+        border-width: 2px;
+        padding-left: 4%;
+        padding-right: 4%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        font-size: 28px;
+    }
+    #d4 {
+        margin-top: 8px;
+        margin-left: 5%;
+    }
+    #d6 {
+        margin-top: 8px;
+        margin-left: 35%;
+    }
+    #d8 {
+        margin-top: 8px;
+        margin-left: 60%;
+    }
+    #d10 {
+        margin-top: 125px;
+        margin-left: 5%;
+    }
+    #d12 {
+        margin-top: 125px;
+        margin-left: 34%;
+    }
+    #d20 {
+        margin-top: 260px;
+        margin-left: 5%;
+    }
+    #d100 {
+        margin-top : 260px;
+        margin-left: 33%;
+    }
+    #rollButton {
+        margin-top: 125px;
+        margin-left: 60%;
+    }
+    #clear {
+        margin-top: 260px;
+        margin-left: 60%;
+    }
+    #answer {
+        margin-top: 530px;
+        font-size: 60px;
+    }
+}
